@@ -130,7 +130,7 @@ export function NavBar() {
   ];
 
   const start = (
-    <Link to="/">
+    <Link to="/spaceXmission">
       <Icon as={SiSpacex} boxSize={16} marginLeft={4} />
     </Link>
   );
