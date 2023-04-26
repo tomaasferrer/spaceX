@@ -10,4 +10,14 @@ export default defineConfig({
       presets: ["@babel/preset-react"],
     }),
   ],
+  server: {
+    middleware: {
+      handle(req, res, next) {
+        if (req.url.endsWith(".js")) {
+          res.setHeader("Content-Type", "application/javascript");
+        }
+        next();
+      },
+    },
+  },
 });
