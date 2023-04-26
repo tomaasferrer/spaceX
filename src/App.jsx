@@ -9,7 +9,7 @@ export function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<LaunchList />} />
+        <Route path="/spaceXmission" element={<LaunchList />} />
         <Route path="launch/:launchId" element={<LaunchDetails />} />
         <Route path="rockets/:rocketId" element={<RocketDetails />} />
       </Routes>
