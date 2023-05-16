@@ -52,8 +52,8 @@ export function LaunchDetails() {
 
   return (
     <LaunchContext.Provider value={{ launch }}>
-      <Center h="900px">
-        <Card maxW="lg" bg="gray.100">
+      <Center>
+        <Card boxShadow='dark-lg' p='4' m="10" borderRadius="lg" bg='white'>
           <CardBody>
             <Flex>
               <Text fontSize="2x1">

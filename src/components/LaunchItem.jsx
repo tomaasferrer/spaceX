@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 export function LaunchItem(launch) {
   return (
-    <Box bg="gray.100" p={4} m={4} borderRadius="lg" w="900px">
+    <Box boxShadow='dark-lg' p='5' m="4" borderRadius="lg" bg='white' w="90%">
       <Flex>
         <Text fontSize="2x1">
           Mission <strong>{launch.mission_name}</strong>({launch.launch_year})
